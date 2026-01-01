@@ -13,19 +13,10 @@ const Contact = () => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
     };
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        console.log("Submitting contact form..."); // Debug log
-
+    const getGmailLink = () => {
         const subject = encodeURIComponent(`Portfolio Contact from ${formData.name}`);
         const body = encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`);
-        const mailtoLink = `mailto:virajgupta.work@gmail.com?subject=${subject}&body=${body}`;
-
-        console.log("Generated Link:", mailtoLink); // Debug log
-
-        const link = document.createElement('a');
-        link.href = mailtoLink;
-        link.click();
+        return `https://mail.google.com/mail/?view=cm&fs=1&to=virajgupta.work@gmail.com&su=${subject}&body=${body}`;
     };
 
     return (
@@ -73,7 +64,7 @@ const Contact = () => {
                         transition={{ delay: 0.4 }}
                         className="bg-dark p-8 rounded-3xl border border-gray-800 shadow-2xl"
                     >
-                        <form onSubmit={handleSubmit} className="space-y-6">
+                        <div className="space-y-6">
                             <div>
                                 <label className="block text-sm font-medium text-gray-400 mb-2">Name</label>
                                 <input
@@ -110,14 +101,16 @@ const Contact = () => {
                                     required
                                 ></textarea>
                             </div>
-                            <button
-                                type="submit"
+                            <a
+                                href={getGmailLink()}
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="w-full bg-gradient-to-r from-blue-600 to-violet-600 text-white font-bold py-4 rounded-xl hover:shadow-[0_0_20px_rgba(59,130,246,0.5)] transition-all flex items-center justify-center gap-2 group"
                             >
-                                Send Message
+                                Send via Gmail
                                 <Send size={18} className="group-hover:translate-x-1 transition-transform" />
-                            </button>
-                        </form>
+                            </a>
+                        </div>
                     </motion.div>
                 </div>
             </div>

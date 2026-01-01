@@ -17,7 +17,7 @@ const Navbar = () => {
         { name: "About", href: "#about" },
         { name: "Skills", href: "#skills" },
         { name: "Projects", href: "#projects" },
-        { name: "Contact", href: "#contact" },
+
     ];
 
     return (
@@ -41,8 +41,8 @@ const Navbar = () => {
                             key={link.name}
                             href={link.href}
                             className={`text-sm font-medium transition-colors hover:text-primary ${activeSection === link.name.toLowerCase()
-                                    ? "text-primary"
-                                    : "text-gray-300"
+                                ? "text-primary"
+                                : "text-gray-300"
                                 }`}
                         >
                             {link.name}
