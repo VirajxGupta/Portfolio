@@ -107,7 +107,7 @@ const Contact = () => {
                                 rel="noopener noreferrer"
                                 className="w-full bg-gradient-to-r from-blue-600 to-violet-600 text-white font-bold py-4 rounded-xl hover:shadow-[0_0_20px_rgba(59,130,246,0.5)] transition-all flex items-center justify-center gap-2 group"
                             >
-                                Send via Gmail
+                                Send Message
                                 <Send size={18} className="group-hover:translate-x-1 transition-transform" />
                             </a>
                         </div>

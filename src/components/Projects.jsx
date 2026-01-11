@@ -2,13 +2,25 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Github, ExternalLink } from "lucide-react";
+import internshipImg from "../assets/internship.png";
+import ticketgenImg from "../assets/ticketgen.png";
+import portfolioImg from "../assets/portfolio.png";
+import veltoraImg from "../assets/veltora.png";
 
 const projects = [
+    {
+        title: "Veltora Studios",
+        description: "A creative digital agency delivering premium web experiences and modern design solutions.",
+        tech: ["React", "Tailwind CSS", "Framer Motion"],
+        image: veltoraImg,
+        github: "https://github.com/VirajxGupta/VeltoraStudios",
+        demo: "https://veltora-studios.vercel.app/"
+    },
     {
         title: "AI-Based Internship Platform",
         description: "Full-stack platform recommending internships based on candidate profiles, skills, and location with rule-based recommendations.",
         tech: ["React.js", "Material UI", "Node.js", "Firebase"],
-        image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        image: internshipImg,
         github: "https://github.com/VirajxGupta/AI-based-internship-recommender",
         demo: "https://pm-ai-internship-scheme-platform.onrender.com/"
     },
@@ -16,7 +28,7 @@ const projects = [
         title: "Ticket Generation System",
         description: "Automated fault detection and ticket management platform for power systems with real-time visualization dashboards.",
         tech: ["React.js", "Express", "Node.js", "Firebase", "MUI"],
-        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        image: ticketgenImg,
         github: "https://github.com/VirajxGupta/Ticket_generation_system",
         demo: "https://ticket-generation-system-pv6k.vercel.app/"
     },
@@ -24,7 +36,7 @@ const projects = [
         title: "Personal Portfolio",
         description: "A premium, high-performance portfolio website built with React, Tailwind CSS, and Framer Motion.",
         tech: ["React", "Tailwind CSS", "Framer Motion"],
-        image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        image: portfolioImg,
         github: "https://github.com/VirajxGupta",
         demo: "#"
     }

@@ -7,7 +7,7 @@ const experiences = [
         role: "B.Tech in Electronics and Telecommunication",
         company: "MITS-DU, Gwalior",
         period: "2023 - 2027",
-        description: "Pursuing Bachelor's degree with a CGPA of 8.16. Focusing on Telecommunication networks and software systems."
+        description: "Pursuing Bachelor's degree with a CGPA of 8.20. Focusing on Telecommunication networks and software systems."
     },
     {
         role: "Student Coordinator",
