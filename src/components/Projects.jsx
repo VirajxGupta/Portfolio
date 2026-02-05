@@ -21,8 +21,8 @@ const projects = [
         description: "Full-stack platform recommending internships based on candidate profiles, skills, and location with rule-based recommendations.",
         tech: ["React.js", "Material UI", "Node.js", "Firebase"],
         image: internshipImg,
-        github: "https://github.com/VirajxGupta/AI-based-internship-recommender",
-        demo: "https://pm-ai-internship-scheme-platform.onrender.com/"
+        github: "https://github.com/VirajxGupta/internfinder",
+        demo: "https://internfinder-tbhs.vercel.app/"
     },
     {
         title: "Ticket Generation System",

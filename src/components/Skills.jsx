@@ -8,11 +8,11 @@ const skillsData = [
     },
     {
         category: "Backend",
-        items: ["Node.js", "Express.js", "Java", "REST APIs", "JWT Auth"]
+        items: ["Node.js", "Express.js", "Java", "REST APIs", "JWT Auth", "Redis"]
     },
     {
         category: "Databases & Tools",
-        items: ["MongoDB", "MySQL", "Firebase", "Git", "GitHub", "Postman", "VS Code"]
+        items: ["MongoDB", "MySQL", "Firebase", "Git", "GitHub", "Postman", "VS Code", "Supabase"]
     }
 ];
 
