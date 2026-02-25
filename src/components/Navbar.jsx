@@ -70,7 +70,7 @@ const Navbar = () => {
                 <motion.div
                     initial={{ opacity: 0, y: -20 }}
                     animate={{ opacity: 1, y: 0 }}
-                    className="absolute top-full left-0 w-full glass border-t border-gray-800 md:hidden flex flex-col items-center py-6 space-y-6"
+                    className="absolute top-full left-0 w-full backdrop-blur-2xl bg-black/50 border-t border-gray-800 md:hidden flex flex-col items-center py-6 space-y-6"
                 >
                     {navLinks.map((link) => (
                         <a
