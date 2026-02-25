@@ -6,6 +6,7 @@ import internshipImg from "../assets/internship.png";
 import ticketgenImg from "../assets/ticketgen.png";
 import portfolioImg from "../assets/portfolio.png";
 import veltoraImg from "../assets/veltora.png";
+import aarunyaImg from "../assets/aarunya.png";
 
 const projects = [
     {
@@ -39,7 +40,17 @@ const projects = [
         image: portfolioImg,
         github: "https://github.com/VirajxGupta",
         demo: "#"
+    },
+    {
+        title: "Aarunya 2.0",
+        description: "Aarunya 2.0 is an immersive, interactive 3D web experience built for the annual cultural fest of MITS Gwalior, featuring a vibrant \"KidCore-Retro\" theme. Developed using React, Three.js, and Tailwind CSS, the platform offers users a virtual campus explorer complete with seamless authentication, event registrations, and dynamic animations.",
+        tech: ["React", "Tailwind CSS", "Three.js"],
+        image: aarunyaImg,
+        github: "https://github.com/Naitikk-J/AarunyaMITS",
+        demo: "https://aarunya.harshitvarshney.in/"
     }
+
+
 ];
 
 const Projects = () => {
