@@ -180,7 +180,7 @@ const RoleCycler = () => {
     }, []);
 
     return (
-        <span className="block h-[1.5em] overflow-hidden">
+        <span className="block h-[2.2em] md:h-[1.5em] overflow-hidden">
             <motion.span
                 key={index}
                 initial={{ y: 50, opacity: 0 }}
