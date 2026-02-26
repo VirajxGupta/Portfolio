@@ -44,7 +44,7 @@ const projects = [
     {
         title: "Aarunya 2.0",
         description: "Aarunya 2.0 is an immersive, interactive 3D web experience built for the annual cultural fest of MITS Gwalior, featuring a vibrant \"KidCore-Retro\" theme. Developed using React, Three.js, and Tailwind CSS, the platform offers users a virtual campus explorer complete with seamless authentication, event registrations, and dynamic animations.",
-        tech: ["React", "Tailwind CSS", "Three.js"],
+        tech: ["Next.js", "Tailwind CSS", "Three.js"],
         image: aarunyaImg,
         github: "https://github.com/Naitikk-J/AarunyaMITS",
         demo: "https://aarunya.harshitvarshney.in/"
