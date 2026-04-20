@@ -18,8 +18,14 @@ const experiences = [
     {
         role: "Core Team Member",
         company: "AARUNYA 2025",
-        period: "2025",
+        period: "2025-2025",
         description: "Planned and executed an annual techno-cultural fest for 1000+ students."
+    },
+    {
+        role: "development Head",
+        company: "AARUNYA 2026",
+        period: "2026-2026",
+        description: "Led a team of 7 and done the whole website development, admin pannel and payment integration and passes generation with unique qr codes with unique ids."
     }
 ];
 
