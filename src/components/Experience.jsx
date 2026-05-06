@@ -27,6 +27,12 @@ const experiences = [
         period: "2026-2026",
         description: "Led a team of 7 and done the whole website development, admin pannel and payment integration and passes generation with unique qr codes with unique ids."
     }
+    {
+        role: "Full-Stack Developer intern",
+        company: "OM ADVANCE BAJAJ PVT.LTD",
+        period: "May 2026-Present",
+        description: "Developing several internal tools and dashboards to optimize operations and enhance data visualization using React, Node.js, Supabase, Docker, Cloudflare, AWS."
+    }
 ];
 
 const Experience = () => {
