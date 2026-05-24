@@ -7,6 +7,8 @@ import ticketgenImg from "../assets/ticketgen.png";
 import portfolioImg from "../assets/portfolio.png";
 import veltoraImg from "../assets/veltora.png";
 import aarunyaImg from "../assets/aarunya.png";
+import commflowImg from "../assets/commflow.png";
+import receiptgenImg from "../assets/receipt.png";
 
 const projects = [
     {
@@ -48,6 +50,22 @@ const projects = [
         image: aarunyaImg,
         github: "https://github.com/Naitikk-J/AarunyaMITS",
         demo: "https://aarunya.harshitvarshney.in/"
+    },
+    {
+        title: "CommFlow",
+        description: "A real-time communication platform for seamless collaboration and instant messaging with a daily of 30+ users.",
+        tech: ["React", "Hono", "Supabase", "Tailwind CSS", "wrangler"],
+        image: commflowImg,
+        github: "https://github.com/lite-worker/internalcommunication",
+        demo: "https://internalcommunication-8sn.pages.dev/"
+    },
+    {
+        title: "SmartReceipt",
+        description: "Built a high-performance dealership management system using Cloudflare Pages Functions and Supabase, enabling rapid batch Excel imports, real-time debit/credit ledger tracking, and 100% accurate invoice processing. Optimized for high-volume operations with 5,000+ receipts generated monthly.",
+        tech: ["React", "TypeScript", "Hono", "Supabase", "Tailwind CSS"],
+        image: receiptgenImg,
+        github: "https://github.com/VirajxGupta/receiptgen",
+        demo: "https://receiptgen-5xt.pages.dev/"
     }
 
 
