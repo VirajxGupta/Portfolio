@@ -7,7 +7,7 @@ import ticketgenImg from "../assets/ticketgen.png";
 import portfolioImg from "../assets/portfolio.png";
 import veltoraImg from "../assets/veltora.png";
 import aarunyaImg from "../assets/aarunya.png";
-import commflowImg from "../assets/commflow.png";
+import commflowImg from "../assets/CommFlow.png";
 import receiptgenImg from "../assets/receipt.png";
 
 const projects = [
