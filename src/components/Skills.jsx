@@ -8,7 +8,7 @@ const skillsData = [
     },
     {
         category: "Backend",
-        items: ["Node.js", "Express.js", "Java", "REST APIs", "JWT Auth", "Redis", "Typescript"]
+        items: ["Node.js", "Express.js", "Java", "Nginx", "REST APIs", "JWT Auth", "Redis", "Typescript"]
     },
     {
         category: "Databases & Tools",
@@ -16,7 +16,7 @@ const skillsData = [
     },
     {
         category: "Cloud & DevOps",
-        items: ["AWS S3,EC2", "Docker", "Cloudflare", "Vercel", "Netlify", "Render"]
+        items: ["AWS S3,EC2", "Docker", "Cloudflare", "Vercel" ]
     }
 ];
 
