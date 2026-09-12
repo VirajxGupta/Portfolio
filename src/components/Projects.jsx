@@ -8,7 +8,7 @@ import veltoraImg from "../assets/veltora.png";
 import aarunyaImg from "../assets/aarunya.png";
 import commflowImg from "../assets/CommFlow.png";
 import receiptgenImg from "../assets/receipt.png";
-import mailmergeImg from "../assets/mailmerge.png";
+import mailmergeImg from "../assets/Mailmerge.png";
 
 const projects = [
   {
