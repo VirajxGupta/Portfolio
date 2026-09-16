@@ -44,7 +44,7 @@ const projects = [
     tech: ["Next.js", "Tailwind CSS", "Three.js"],
     image: aarunyaImg,
     github: "https://github.com/Naitikk-J/AarunyaMITS",
-    demo: "https://aarunya.harshitvarshney.in/",
+    demo: "https://aarunya-mits.vercel.app/",
   },
   {
     title: "AI-Based Internship Platform",
