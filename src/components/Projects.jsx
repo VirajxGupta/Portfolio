@@ -17,8 +17,8 @@ const projects = [
       "A creative digital agency delivering premium web experiences and modern design solutions.",
     tech: ["React", "Tailwind CSS", "Framer Motion"],
     image: veltoraImg,
-    github: "https://github.com/VirajxGupta/VeltoraStudios",
-    demo: "https://veltora-studios.vercel.app/",
+    github: "https://github.com/VirajxGupta/agency",
+    demo: "https://veltora-studio.vercel.app/",
   },
   {
     title: "MailMerge Pro",
